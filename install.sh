@@ -25,4 +25,3 @@ pip install loguru
 pip install omegaconf
 pip install setuptools==59.5.0
 python -m pytti.warmup
-python -m pytti.workhorse conf=demo
