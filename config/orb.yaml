@@ -1,7 +1,7 @@
 # @package _global_
-scenes: 'an aesthetic photograph of a delicious pizza with avocados and blueberries'
-scene_prefix: 'meme: -1:-0.95 | anime: -1:-0.95 | text: -5:-0.95 | pizza: 5| olives: 0.2 | food photography: 2 | '
-scene_suffix: ''
+scenes: 'text prompt goes here....'
+scene_prefix: 'meme: -1:-0.95 | anime: -1:-0.95 | text: -1:-0.95 |'
+scene_suffix: 'a painting by....'
 
 direct_image_prompts: ''
 init_image: '/home/jovyan/input/images/shaded_sphere_square.png'
@@ -35,8 +35,8 @@ animation_mode: off
 
 ##################################
 
-width: 800
-height: 800
+width: 100
+height: 100
 
 steps_per_scene: 600
 steps_per_frame: 2
@@ -55,7 +55,7 @@ cutout_border: 0.55
 #    - wrap
 #    - black
 #    - smear
-border_mode: clamp
+border_mode: black
 
 ##################################
 
@@ -153,12 +153,12 @@ RN50x64: false
 ### Outputs ###
 ###############
 
-file_namespace: cabernet_rose
+file_namespace: orb_01
 allow_overwrite: true
 display_every: 50
 clear_every: 0
 display_scale: 1
-save_every: 49
+save_every: 2
 
 backups: 5
 show_graphs: false
