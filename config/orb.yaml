@@ -38,7 +38,7 @@ animation_mode: off
 width: 100
 height: 100
 
-steps_per_scene: 600
+steps_per_scene: 400
 steps_per_frame: 2
 interpolation_steps: 0
 
@@ -145,7 +145,7 @@ ViTB16: true
 ViTL14: false
 RN50: false
 RN101: false
-RN50x4: true
+RN50x4: false
 RN50x16: false
 RN50x64: false
 
