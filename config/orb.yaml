@@ -103,7 +103,7 @@ infill_mode: black
 ### Limited Palette ###
 #######################
 
-pixel_size: 1
+pixel_size: 4
 smoothing_weight: 0.02
 random_initial_palette: false
 palette_size: 6
