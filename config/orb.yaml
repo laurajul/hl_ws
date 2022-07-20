@@ -4,7 +4,7 @@ scene_prefix: 'meme: -1:-0.95 | anime: -1:-0.95 | text: -1:-0.95 |'
 scene_suffix: 'a painting by....'
 
 direct_image_prompts: ''
-init_image: '/home/jovyan/input/images/shaded_sphere_square.png'
+init_image: '/home/jovyan/hl_ws/init_input/shaded_sphere_square.png' 
 direct_init_weight: '0.5'
 semantic_init_weight: '0'
 
